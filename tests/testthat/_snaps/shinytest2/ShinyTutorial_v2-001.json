@@ -1,0 +1,10 @@
+{
+  "output": {
+    "first_player_ft-third_player_ft": {
+      "html": "<div class=\"description-block\">\n  <span class=\"description-percentage text-gray\">\n    <i class=\"fas fa-basketball-ball\" style=\"font-size: 24px;\"><\/i>\n  <\/span>\n  <h5 class=\"description-header\">\n    <span style=\"color:white; font-size:28px; font-weight:bold; font-family:sans-serif;\">Jose Calderon<\/span>\n  <\/h5>\n  <span class=\"description-text\">\n    <span style=\"color:white; font-size:16px; font-family:sans-serif;\">98<\/span>\n  <\/span>\n<\/div>",
+      "deps": [
+
+      ]
+    }
+  }
+}

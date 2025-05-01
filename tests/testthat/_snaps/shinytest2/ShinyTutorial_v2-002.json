@@ -1,0 +1,337 @@
+{
+  "output": {
+    "ft_per_period-hist_id": {
+      "x": {
+        "hc_opts": {
+          "chart": {
+            "reflow": true,
+            "zoomType": "x"
+          },
+          "title": {
+            "text": "Distribution of Shooting Percentages"
+          },
+          "yAxis": {
+            "title": {
+              "text": null
+            }
+          },
+          "credits": {
+            "enabled": true,
+            "text": "Source: UPPCB (2021-22)",
+            "href": "http://www.uppcb.com/",
+            "style": {
+              "fontSize": "9px"
+            }
+          },
+          "exporting": {
+            "enabled": true
+          },
+          "boost": {
+            "enabled": false
+          },
+          "plotOptions": {
+            "series": {
+              "label": {
+                "enabled": false
+              },
+              "turboThreshold": 0
+            },
+            "treemap": {
+              "layoutAlgorithm": "squarified"
+            },
+            "line": {
+              "dataLabels": {
+                "enabled": false
+              },
+              "showInLegend": true
+            }
+          },
+          "tooltip": {
+            "formatter": "function() { return  this.point.name + '<br/>' + this.y; }",
+            "shared": true,
+            "crosshairs": true
+          },
+          "series": [
+            {
+              "data": [
+                {
+                  "x": 0.3700000000000001,
+                  "y": 3,
+                  "name": "(0.36, 0.38]"
+                },
+                {
+                  "x": 0.3900000000000001,
+                  "y": 1,
+                  "name": "(0.38, 0.4]"
+                },
+                {
+                  "x": 0.4100000000000001,
+                  "y": 4,
+                  "name": "(0.4, 0.42]"
+                },
+                {
+                  "x": 0.4300000000000001,
+                  "y": 0,
+                  "name": "(0.42, 0.44]"
+                },
+                {
+                  "x": 0.4500000000000001,
+                  "y": 2,
+                  "name": "(0.44, 0.46]"
+                },
+                {
+                  "x": 0.4700000000000001,
+                  "y": 2,
+                  "name": "(0.46, 0.48]"
+                },
+                {
+                  "x": 0.4900000000000001,
+                  "y": 5,
+                  "name": "(0.48, 0.5]"
+                },
+                {
+                  "x": 0.5100000000000001,
+                  "y": 4,
+                  "name": "(0.5, 0.52]"
+                },
+                {
+                  "x": 0.53,
+                  "y": 4,
+                  "name": "(0.52, 0.54]"
+                },
+                {
+                  "x": 0.55,
+                  "y": 12,
+                  "name": "(0.54, 0.56]"
+                },
+                {
+                  "x": 0.5700000000000001,
+                  "y": 15,
+                  "name": "(0.56, 0.58]"
+                },
+                {
+                  "x": 0.5900000000000001,
+                  "y": 10,
+                  "name": "(0.58, 0.6]"
+                },
+                {
+                  "x": 0.6100000000000001,
+                  "y": 20,
+                  "name": "(0.6, 0.62]"
+                },
+                {
+                  "x": 0.6300000000000001,
+                  "y": 23,
+                  "name": "(0.62, 0.64]"
+                },
+                {
+                  "x": 0.6500000000000001,
+                  "y": 20,
+                  "name": "(0.64, 0.66]"
+                },
+                {
+                  "x": 0.6700000000000002,
+                  "y": 26,
+                  "name": "(0.66, 0.68]"
+                },
+                {
+                  "x": 0.6900000000000002,
+                  "y": 27,
+                  "name": "(0.68, 0.7]"
+                },
+                {
+                  "x": 0.7100000000000002,
+                  "y": 48,
+                  "name": "(0.7, 0.72]"
+                },
+                {
+                  "x": 0.7300000000000001,
+                  "y": 51,
+                  "name": "(0.72, 0.74]"
+                },
+                {
+                  "x": 0.7500000000000001,
+                  "y": 68,
+                  "name": "(0.74, 0.76]"
+                },
+                {
+                  "x": 0.77,
+                  "y": 66,
+                  "name": "(0.76, 0.78]"
+                },
+                {
+                  "x": 0.79,
+                  "y": 66,
+                  "name": "(0.78, 0.8]"
+                },
+                {
+                  "x": 0.8100000000000001,
+                  "y": 76,
+                  "name": "(0.8, 0.82]"
+                },
+                {
+                  "x": 0.8300000000000001,
+                  "y": 44,
+                  "name": "(0.82, 0.84]"
+                },
+                {
+                  "x": 0.8500000000000001,
+                  "y": 32,
+                  "name": "(0.84, 0.86]"
+                },
+                {
+                  "x": 0.8700000000000001,
+                  "y": 29,
+                  "name": "(0.86, 0.88]"
+                },
+                {
+                  "x": 0.8900000000000001,
+                  "y": 7,
+                  "name": "(0.88, 0.9]"
+                },
+                {
+                  "x": 0.9100000000000001,
+                  "y": 5,
+                  "name": "(0.9, 0.92]"
+                }
+              ],
+              "type": "column",
+              "pointRange": 0.02000000000000002,
+              "groupPadding": 0,
+              "pointPadding": 0,
+              "borderWidth": 0,
+              "color": "#B71C1C",
+              "name": "Weight"
+            }
+          ],
+          "legend": {
+            "enabled": true
+          }
+        },
+        "theme": {
+          "chart": {
+            "backgroundColor": "transparent"
+          },
+          "colors": [
+            "#7cb5ec",
+            "#434348",
+            "#90ed7d",
+            "#f7a35c",
+            "#8085e9",
+            "#f15c80",
+            "#e4d354",
+            "#2b908f",
+            "#f45b5b",
+            "#91e8e1"
+          ]
+        },
+        "conf_opts": {
+          "global": {
+            "Date": null,
+            "VMLRadialGradientURL": "http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png",
+            "canvasToolsURL": "http =//code.highcharts.com/list(version)/modules/canvas-tools.js",
+            "getTimezoneOffset": null,
+            "timezoneOffset": 0,
+            "useUTC": true
+          },
+          "lang": {
+            "contextButtonTitle": "Chart context menu",
+            "decimalPoint": ".",
+            "downloadCSV": "Download CSV",
+            "downloadJPEG": "Download JPEG image",
+            "downloadPDF": "Download PDF document",
+            "downloadPNG": "Download PNG image",
+            "downloadSVG": "Download SVG vector image",
+            "downloadXLS": "Download XLS",
+            "drillUpText": "◁ Back to {series.name}",
+            "exitFullscreen": "Exit from full screen",
+            "exportData": {
+              "annotationHeader": "Annotations",
+              "categoryDatetimeHeader": "DateTime",
+              "categoryHeader": "Category"
+            },
+            "hideData": "Hide data table",
+            "invalidDate": null,
+            "loading": "Loading...",
+            "months": [
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
+            ],
+            "noData": "No data to display",
+            "numericSymbolMagnitude": 1000,
+            "numericSymbols": [
+              "k",
+              "M",
+              "G",
+              "T",
+              "P",
+              "E"
+            ],
+            "printChart": "Print chart",
+            "resetZoom": "Reset zoom",
+            "resetZoomTitle": "Reset zoom level 1:1",
+            "shortMonths": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ],
+            "shortWeekdays": [
+              "Sat",
+              "Sun",
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thu",
+              "Fri"
+            ],
+            "thousandsSep": " ",
+            "viewData": "View data table",
+            "viewFullscreen": "View in full screen",
+            "weekdays": [
+              "Sunday",
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ]
+          }
+        },
+        "type": "chart",
+        "fonts": [
+
+        ],
+        "debug": false
+      },
+      "evals": [
+        "hc_opts.tooltip.formatter"
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    }
+  }
+}

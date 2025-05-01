@@ -27,19 +27,8 @@ library(readr)
 library(DT)
 library(fresh)
 
-#plot_colour <- "#8965CD"
+###########################
 
-# theme <- create_theme(
-#   bs4dash_color(
-#     lime = "#52A1A5",
-#     olive = "#4A9094",
-#     purple = "#8965CD"
-#   ),
-#   bs4dash_status(
-#     primary = "#E1EDED",
-#     info = "#E4E4E4"
-#   )
-# )
 
 plot_colour <- "#1D428A"  # Deep NBA Blue (Warriors/76ers style)
 
@@ -57,22 +46,14 @@ theme <- create_theme(
 
 
 
+source(file.path("data_script.R"))
 
-#############################################################
+source(file.path("modules", "userbox_module.R"))
+source(file.path("modules", "mod_line_charts.R"))
+source(file.path("modules", "histogram_module.R"))
+source(file.path("modules", "reactable_module.R"))
 
-
-# Load modules
-source("./data_script.R")
-source("./modules/userbox_module.R")
-source("./modules/mod_line_charts.R")
-source("./modules/histogram_module.R")
-source("./modules/reactable_module.R")
 
 # Load UI and Server
-source("ui.R")
-source("server.R")
-
-
-
-# Run the app
-shinyApp(ui = ui, server = server)
+# source(file.path("ui.R"))
+# source(file.path("server.R"))
