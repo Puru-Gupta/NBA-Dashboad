@@ -4,3 +4,6 @@
 .Ruserdata
 # {shinytest2}: Ignore new debug snapshots for `$expect_values()`
 *_.new.png
+NBA.Dashboard.Rcheck/
+NBA.Dashboard*.tar.gz
+NBA.Dashboard*.tgz

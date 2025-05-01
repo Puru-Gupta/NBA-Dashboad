@@ -20,7 +20,7 @@ Make sure you have the following R packages installed:
 
 ```r
 install.packages(c(
-  "shiny", "shinydashboard", "shinydashboardPlus", "tidyverse", "data.table",
+  "shiny", "shinydashboard", "shinydashboardPlus", "data.table",
   "shinyWidgets", "shinycssloaders", "arrow", "RColorBrewer", "htmltools",
   "tidyr", "stringr", "shinyjs", "shinyBS", "highr", "highcharter", "reactable",
   "profvis", "shinytest2"
