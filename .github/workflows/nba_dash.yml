@@ -39,19 +39,15 @@ jobs:
           shiny::runApp(".", display.mode = "normal")
         shell: Rscript {0}
 
-      Optional: Deploy to shinyapps.io (uncomment and set secrets)
+     # Optional: Deploy to shinyapps.io (uncomment and set secrets)
       - name: Deploy to shinyapps.io
         run: |
           install.packages("rsconnect")
           rsconnect::setAccountInfo(
             name = "imfv27-puru-vishwa",
             token = "027C5FCA8167D4A8EDED1D08E4438539",
-            secret = "DLH2SrS+Ym4Hv5gjay8XGdIjxxbsMWilsJisxXXw"
+            secret = ""DLH2SrS+Ym4Hv5gjay8XGdIjxxbsMWilsJisxXXw"
           )
-          rsconnect::deployApp(appDir = ".", appName = "GitCheck")
+          rsconnect::deployApp(appDir = ".", appName = "my-shiny-app")
         shell: Rscript {0}
-
-
-
-
 
