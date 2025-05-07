@@ -48,7 +48,7 @@ jobs:
             token = "027C5FCA8167D4A8EDED1D08E4438539",
             secret = "DLH2SrS+Ym4Hv5gjay8XGdIjxxbsMWilsJisxXXw"
           )
-          rsconnect::deployApp(appDir = ".", appName = "my-shiny-app")
+          rsconnect::deployApp(appDir = ".", appName = "GitCheck")
         shell: Rscript {0}
 
 
