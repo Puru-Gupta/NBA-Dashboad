@@ -1,0 +1,12 @@
+name: GitAction
+title: GitAction
+username: imfv27-puru-vishwa
+account: imfv27-puru-vishwa
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14706934
+bundleId: 10246644
+url: https://imfv27-puru-vishwa.shinyapps.io/GitAction/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
