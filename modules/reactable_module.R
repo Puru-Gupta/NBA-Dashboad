@@ -64,6 +64,8 @@ reactable_server <- function(id, df, col1) {
 
               # Create a green color gradient (dark green for top, light green for lower)
               color <- colorRampPalette(c("darkred", "red", "orange", "yellow", "green", "darkgreen"))(100)
+              color <- colorRampPalette(c("darkgreen", "green", "orange", "orange", "red", "darkred"))(100)
+
               fill_color <- color[round(normalized_value * 99) + 1]  # +1 because R indexes from 1
 
               # Create bar chart

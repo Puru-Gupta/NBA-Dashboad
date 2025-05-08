@@ -1,4 +1,4 @@
-name: R Shiny CI
+name: R Shiny CICD
 
 on:
   push:

@@ -175,7 +175,7 @@ ui <-
           image = "https://media.giphy.com/media/XEFViEQqEKPSOYPotM/giphy.gif"
         ),
         status = "maroon",
-        collapsed = FALSE,
+        collapsed = TRUE,
         width = 12,
 
         # 🚨 FIX: Add fluidRow here
@@ -191,7 +191,7 @@ ui <-
           ),
           column(width = 4,
                  boxPad(
-                   color = "fuchsia",
+                   color = "teal",
                    PlayerFTUI("second_player_ft"),
                    hr(),
                    PlayerFTUI("second_player_pf")
@@ -299,7 +299,7 @@ ui <-
     ),
 
     status = "navy",
-    collapsed = FALSE,
+    collapsed = TRUE,
     width = 12,
 
     #boxLabel("text", "primary", style = "default"),
@@ -327,7 +327,7 @@ ui <-
     column( width = 4,
             # box(
             boxPad(
-              color = "fuchsia",
+              color = "teal",
               # ,
               # column(
               #   width = 4,
@@ -378,7 +378,7 @@ ui <-
     ),
 
     status = "purple",
-    collapsed = FALSE,
+    collapsed = TRUE,
     width = 12,
 
     #boxLabel("text", "primary", style = "default"),
@@ -404,7 +404,7 @@ ui <-
     column( width = 4,
             # box(
             boxPad(
-              color = "fuchsia",
+              color = "teal",
 
               # boxLabel("NRETP", "warning", style = "default"),
 
