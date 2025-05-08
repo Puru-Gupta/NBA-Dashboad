@@ -12,7 +12,7 @@ ui <-
     header = dashboardHeader(
       status = "lime",
       title = dashboardBrand(
-        title = "NBA FT Analysis",
+        title = "NBA FT Analysis V2.0",
         color = "olive",
         image = "https://iili.io/3WjDaDv.png"#"https://images.unsplash.com/photo-1539664030485-a936c7d29c6e?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ),
