@@ -1,6 +1,5 @@
 # Load libraries
 library(shiny)
-library(tidyverse)
 library(data.table)
 library(shinyWidgets)
 library(shinycssloaders)

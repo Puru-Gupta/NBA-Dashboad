@@ -24,14 +24,10 @@ jobs:
             libharfbuzz-dev libfribidi-dev libfontconfig1-dev libfreetype6-dev \
             libpng-dev libtiff5-dev libjpeg-dev zlib1g-dev
 
-      - name: Install R package dependencies
+      - name: Restore R environment using renv
         run: |
-          install.packages(c(
-            "shiny", "data.table", "shinyWidgets", "shinycssloaders", "arrow",
-            "RColorBrewer", "htmltools", "tidyr", "stringr", "shinyjs", "shinyBS",
-            "highr", "highcharter", "reactable", "profvis", "shinytest2",
-            "bs4Dash", "dplyr", "readr", "DT", "fresh"
-          ), repos = "https://cloud.r-project.org")
+          install.packages("renv", repos = "https://cloud.r-project.org")
+          renv::restore()
         shell: Rscript {0}
 
       - name: Run basic app test
@@ -46,7 +42,7 @@ jobs:
           rsconnect::setAccountInfo(
             name = "imfv27-puru-vishwa",
             token = "027C5FCA8167D4A8EDED1D08E4438539",
-            secret = ""DLH2SrS+Ym4Hv5gjay8XGdIjxxbsMWilsJisxXXw"
+            secret = "DLH2SrS+Ym4Hv5gjay8XGdIjxxbsMWilsJisxXXw"
           )
           rsconnect::deployApp(appDir = ".", appName = "my-shiny-app")
         shell: Rscript {0}
