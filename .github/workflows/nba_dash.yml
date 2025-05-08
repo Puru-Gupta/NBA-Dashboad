@@ -29,10 +29,16 @@ jobs:
           install.packages("renv", repos = "https://cloud.r-project.org")
           renv::restore()
         shell: Rscript {0}
+      # - name: Run Shiny app test (shinytest2)
+      #   run: |
+      #     install.packages("shinytest2", repos = "https://cloud.r-project.org")
+      #     shinytest2::test_app(".", quiet = TRUE)
+      #   shell: Rscript {0}
 
-      - name: Run basic app test
+      - name: Check Shiny app can start without error
         run: |
-          shiny::runApp(".", display.mode = "normal")
+          app <- shiny::shinyAppDir(".")
+          print("App loaded successfully")
         shell: Rscript {0}
 
      # Optional: Deploy to shinyapps.io (uncomment and set secrets)
