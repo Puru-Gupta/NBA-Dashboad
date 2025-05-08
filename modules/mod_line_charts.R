@@ -8,7 +8,7 @@ mod_line_ui <- function(id, title = "Write chart title here") {
       solidHeader = FALSE,
       collapsible = TRUE,
       # collapsed = FALSE,
-      status = "success",
+      status = "navy",
       width = 12,
       highchartOutput(ns("avg_aqi_id"), height = "350px")
     )

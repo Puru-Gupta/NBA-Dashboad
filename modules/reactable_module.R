@@ -8,7 +8,7 @@ reactable_ui <- function(id) {
     width = 12,
     height = "385px",
     solidHeader = FALSE,
-    status = "success",
+    status = "navy",
     tabsetPanel(
       type = "tabs",
       tabPanel("City",  reactableOutput(ns("city_aqi")) %>% withSpinner(color="#0dc5c1"))

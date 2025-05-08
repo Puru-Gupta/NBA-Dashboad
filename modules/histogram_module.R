@@ -8,7 +8,7 @@ mod_hist_ui <- function(id, title =  "write chart title here") {
         solidHeader = FALSE,
         collapsible = TRUE,
         collapsed = FALSE,
-        status = "success",
+        status = "navy",
         width = 12,
         highchartOutput(ns("hist_id"), height = "350px")
     )

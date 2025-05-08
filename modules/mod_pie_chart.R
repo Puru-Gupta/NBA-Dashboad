@@ -1,12 +1,4 @@
-#' pie_chart UI Function
-#'
-#' @description A shiny Module.
-#'
-#' @param id,input,output,session Internal parameters for {shiny}.
-#'
-#' @noRd
-#'
-#' @importFrom shiny NS tagList
+
 mod_pie_chart_ui <- function(id) {
   ns <- NS(id)
   tagList(
@@ -17,7 +9,7 @@ mod_pie_chart_ui <- function(id) {
           solidHeader = FALSE,
           collapsible = TRUE,
           collapsed = FALSE,
-          status = "success",
+          status = "navy",
           width = 5,
           highchartOutput(ns("cbo_type"), height = "350px")
       )
@@ -28,9 +20,7 @@ mod_pie_chart_ui <- function(id) {
   )
 }
 
-#' pie_chart Server Functions
-#'
-#' @noRd
+
 mod_pie_chart_server <- function(id, df, x_col, y_cols){
   moduleServer(id, function(input, output, session){
     ns <- session$ns

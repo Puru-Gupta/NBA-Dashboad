@@ -33,13 +33,13 @@ plot_colour <- "#1D428A"  # Deep NBA Blue (Warriors/76ers style)
 
 theme <- create_theme(
   bs4dash_color(
-    lime = "#C8102E",    # Gold - energetic, sporty
-    olive = "#FFC72C",   # Deep red (NBA/NFL classic)
+    lime = "#274B8C",    # Gold - energetic, sporty
+    olive = "#274B8C",   # Deep red (NBA/NFL classic)
     purple = "#582C83"   # Lakers-style dark purple
   ),
   bs4dash_status(
-    primary = "#52A1A5",  # Light grey (clean dashboard background)
-    info = "#4A9094",      # Slightly darker grey for panels
+    primary = "#274B8C",  # Light grey (clean dashboard background)
+    info = "#274B8C",      # Slightly darker grey for panels
   )
 )
 
