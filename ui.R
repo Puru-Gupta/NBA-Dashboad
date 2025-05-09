@@ -1,6 +1,6 @@
 ui <-
   dashboardPage(
-    title = "NBA | Analysis",
+    title = "NBA|Analysis",
 
     freshTheme = theme,
     dark = NULL,

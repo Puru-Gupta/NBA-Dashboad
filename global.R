@@ -23,6 +23,7 @@ library(dplyr)
 library(readr)
 library(DT)
 library(fresh)
+library(shinyjs)
 
 ###########################
 

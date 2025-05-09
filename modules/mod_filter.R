@@ -1,14 +1,4 @@
-#' filter UI Function
-#'
-#' @description A shiny Module.
-#'
-#' @param id,input,output,session Internal parameters for {shiny}.
-#'
-#' @noRd
-#' @import dplyr shiny shinydashboard shinydashboardPlus
-#' @importFrom magrittr %>%
-#' @importFrom highcharter highchartOutput
-#' @importFrom shiny NS tagList
+
 mod_filter_ui <- function(id, data) {
   ns <- NS(id)
   tagList(
@@ -77,9 +67,7 @@ mod_filter_ui <- function(id, data) {
   )
 }
 
-#' filter Server Functions
-#'
-#' @noRd
+
 mod_filter_server <- function(id, data){
   moduleServer(id, function(input, output, session){
 
